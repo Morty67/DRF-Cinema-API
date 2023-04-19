@@ -12,7 +12,7 @@ RUN apt-get update && apt-get -y install libpq-dev gcc
 
 RUN pip install -r requirements.txt
 
-COPY . .
+COPY cinema_service .
 
 RUN mkdir -p /vol/app/media
 

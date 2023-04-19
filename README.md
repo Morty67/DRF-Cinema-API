@@ -5,12 +5,12 @@ The application was created on DRF for convenient management of cinemas.
 ```shell
 Python 3 must be installed
 To get started, you need to clone the repository from GitHub: https://github.com/Morty67/DRF-Cinema-API
-cd cinema_service
+cd config
 python -m venv venv
 venv\Scripts\activate (on Windows)
 source venv/bin/activate (on macOS)
 pip install -r requirements.txt
-Your settings for DB:
+Your settings for DB in .env file:
 POSTGRES_DB=<POSTGRES_DB>
 POSTGRES_USER=<POSTGRES_USER>
 POSTGRES_PASSWORD=<POSTGRES_PASSWORD>
